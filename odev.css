@@ -1,0 +1,137 @@
+h1 {
+  margin:60px;
+}
+
+section {
+
+  border: 1px solid black;
+  width: 100px;
+  height: 200px;
+}
+.yazi{
+  font-size: 4.5em;
+  position: absolute;
+  font-size:12px;
+  top: 50px;
+  margin: 10px;
+  padding: 2px;
+
+}
+
+.baslik1{
+  position: absolute;
+  top: -25px;
+  right: 0px;
+  background-color: pink;
+  width: 120px;
+  height: 25px;
+  font-size: 25px;
+  border: 1px solid black;
+  padding: 2px;
+
+}
+.baslik2{
+  position: absolute;
+  top: -25px;
+  right: 0px;
+  background-color: red;
+  width: 120px;
+  height: 25px;
+  font-size: 25px;
+  border: 1px solid black;
+  padding: 2px;
+
+}
+.baslik3{
+  position: absolute;
+  top: -25px;
+  right: 0px;
+  background-color: magenta;
+  width: 120px;
+  height: 25px;
+  font-size: 25px;
+  border: 1px solid black;
+  padding: 2px;
+
+}
+.kutu1 {
+}
+.kutu2 {
+}
+.kutu3 {
+}
+
+
+/** Large devices only **/
+@media (min-width: 992px) {
+  .kutu1{background-color:gray;
+    position: relative;
+    width:31%;
+    float: left;
+    margin: 10px;
+
+  }
+
+  .kutu2{background-color:gray;
+    position: relative;
+    width:31%;
+    float: left;
+    margin: 10px;
+  }
+  .kutu3{background-color:gray;
+    position: relative;
+    width:31%;
+    float: left;
+    margin: 10px;
+  }
+}
+
+/** Medium devices only **/
+@media (min-width: 768px) and (max-width: 991px)  {
+  .kutu1 {
+    
+    position: relative;
+    background-color:gray;
+    width: 47%;
+    float: left;
+    margin: 10px;
+  }
+  .kutu2{
+    position: relative;
+    background-color:gray;
+    width: 47%;
+    float: left;
+    margin: 12px;
+  }
+  .kutu3{
+    position: relative;
+    background-color:gray;
+    width: 97%;
+    float: left;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .kutu1 {
+    position: relative;
+    background-color:gray;
+    width: 97%;
+    float: left;
+    margin: 10px;
+  }
+  .kutu2{
+    position: relative;
+    background-color:gray;
+    width: 97%;
+    float: left;
+    margin: 10px;
+  }
+  .kutu3{
+    position: relative;
+    background-color: gray;
+    width: 97%;
+    float: left;
+    margin: 10px;
+  }
+}
